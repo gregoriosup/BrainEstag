@@ -67,6 +67,5 @@ ggplot(loadings_fatores, aes(x = PC1, y = PC2, label = variable)) +
   xlab("PC1") +
   ylab("PC2") +
   theme_light()
-+
-  ,
+
 

@@ -75,4 +75,16 @@ g_contorno <- ggplot(data = dados_graf_contorno,
                                    direction = 1)+
               geom_contour(color="navy")+
               coord_equal()+theme_bw()
+
+#tentando prever maior f2
+
+
+pred_extra <- expand.grid(lactose=seq(24,45, length=100),
+                          crospovidona = seq(10,30, length=100))
+
+y_pred_extra <- predict(mod_decod, newdata = pred_extra)
+
+dados_pred <- cbind(pred_extra,y_pred_extra)
+
+dados_pred[which.max(y_pred_extra),]
                                   
