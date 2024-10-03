@@ -1,0 +1,17 @@
+PRÓXIMOS PASSOS
+
+PCA
+1. Coletar mais fatores dos planos de estudo. OK
+2. Fazer PCA, gráficos. OK
+3. Escolher variáveis para modelo linear. OK
+4. Interpretação. 
+5. Verificar clustering possíveis.
+
+MODELO LINEAR
+1. Aplicar modelo com variáveis escolhidas pela PCA.
+2. Verificar pressupostos e saúde do modelo.
+3. Fazer gráficos e interpretações.
+
+DOE
+1. Refazer DOE.
+2. Fazer gráficos e interpretação.

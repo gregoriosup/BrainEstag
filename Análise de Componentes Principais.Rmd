@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+A análise de componentes principais (PCA) é uma técnica estatística usada para reduzir a dimensionalidade de um conjunto de dados, mantendo a maior parte da variabilidade original. Ela transforma as variáveis originais em um novo conjunto de variáveis não correlacionadas chamadas componentes principais.
+
+Principais Etapas:
+Padronização dos dados: Normalizar os dados para evitar que variáveis com escalas maiores dominem.
+Cálculo dos componentes principais: Encontrar direções (componentes) que capturam a maior variância possível nos dados.
+Projeção dos dados: Projetar os dados nas novas direções (componentes).
+Interpretação:
+Scores: Representam as amostras projetadas nos componentes.
+Loadings: Indicam o quanto cada variável original contribui para cada componente.
+
+```{r}
+
+```
+
